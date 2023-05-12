@@ -1,0 +1,28 @@
+.ReloadNow {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    background-color: blueviolet;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 400px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.ReloadNow:hover {
+    color: white;
+    background-color: rgb(192, 144, 237);
+}
+
+.ReloadNow:active {
+    color: white;
+    background-color: blueviolet;
+}
